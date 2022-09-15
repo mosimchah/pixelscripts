@@ -1,5 +1,7 @@
 # pixelscripts
 
+Easy download link: https://github.com/mosimchah/pixelscripts/archive/refs/heads/main.zip
+
 These are the scripts I made for the Pixel 6, although other devices can make some use of them
 
 I modified the `sched-pixel` CPU governor without changing the governor, this way people using other governors won't have issues
@@ -17,5 +19,3 @@ The balance-cpuset script is just the balance script with one change to not allo
 The powersave script takes the balance-cpuset script and lowers the max frequencies even more and makes the `sched_pixel` governor even more biased for battery life, and sets the I/O scheduler to none (aka noop), this reduces I/O overhead and saves some small amount of power, although the power saving is probably very slight in most cases, this can cause reduced I/O speeds, although it's still more than fast enough on the Pixel 6, this script can cause some annoying lags
 
 The lagfest script takes the powersave-b script and lowers the max frequencies even more and makes the `sched_pixel` governor even more biased for battery life, it also sets swappiness to 0 to use zram less, this should save some power, lagfest, however, ruins race-to-idle and should only be used if you're not doing any CPU intensive tasks, it can be a nice script to use if you're looking for major power-savings and are only doing light tasks like reading an ebook, this script will cause annoying lags (hence the name)
-
-Easy download link: https://github.com/mosimchah/pixelscripts/archive/refs/heads/main.zip
