@@ -33,7 +33,7 @@ su
     echo "50" > /proc/sys/vm/vfs_cache_pressure
 
     echo "0-3,4-5" > /dev/cpuset/top-app/cpus
-    echo "0-3,4-5" > /dev/cpuset/foreground/cpus
+    echo "0-3" > /dev/cpuset/foreground/cpus
     echo "0-1" > /dev/cpuset/background/cpus
     echo "0-3" > /dev/cpuset/system-background/cpus
     echo "0-3" > /dev/cpuset/restricted/cpus
