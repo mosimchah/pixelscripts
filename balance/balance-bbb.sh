@@ -21,9 +21,9 @@ su
     chmod 0664 /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
     chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
 
-    echo "738000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
-    echo "1197000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
-    echo "1277000" > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+    echo "930000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+    echo "1491000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
+    echo "1426000" > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
 
     echo "bfq" > /sys/block/sda/queue/scheduler
     echo "mq-deadline" > /sys/block/sdb/queue/scheduler
