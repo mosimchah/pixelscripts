@@ -23,7 +23,7 @@ su
 
     echo "1401000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
     echo "1491000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
-    echo "1582000" > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+    echo "1426000" > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
 
     echo "bfq" > /sys/block/sda/queue/scheduler
     echo "mq-deadline" > /sys/block/sdb/queue/scheduler

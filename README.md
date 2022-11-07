@@ -4,7 +4,7 @@ Easy download link: https://github.com/mosimchah/pixelscripts/archive/refs/heads
 
 These are the power-saving and performance scripts I made for the Pixel 6, although other devices can make some use of them
 
-I modified the `sched-pixel` CPU governor without changing the governor, this way people using other governors won't have issues
+I modified the `sched-pixel` CPU governor without changing which cpu governor is being set, this way people using other governors won't have issues
 
 The "b" at the end of some of the scripts indicates a lower max frequency for the CPU has been set but everything else is the same as the other script in the folder without the "b" ("lagfest-b" is just "lagfest" with lower max frequencies set)
 

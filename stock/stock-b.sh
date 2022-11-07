@@ -21,7 +21,7 @@ su
     chmod 0664 /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
     chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
 
-    echo "1704000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+    echo "1401000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
     echo "1836000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
     echo "2252000" > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
 
